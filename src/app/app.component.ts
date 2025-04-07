@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import pets from '../data/pets';
 import { PetComponent } from './pet/pet.component';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-root',
